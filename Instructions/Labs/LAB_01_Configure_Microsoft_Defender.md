@@ -3,35 +3,21 @@ lab:
     title: 'Configure Microsoft Defender'
     module: 'Configure the Microsoft Defender XDR environment'
 ---
-You were recently hired by Contoso, Ltd to help the company’s IT team to Defend against threats with Microsoft Defender (XDR). The company’s executives are very concerned that all guidelines are followed and that all requirements are met when you complete the activities in their environment.
+You're a Security Operations Analyst working at a company that is implementing Microsoft Defender XDR. Your role is to
+guide the company’s IT team in defending against threats with Microsoft Defender (XDR). The company’s executives are very concerned that all guidelines are followed and that all requirements are met when you complete the activities in their environment.
 
 # Configure the Microsoft Defender XDR environment
 
-In this exercise you will <!-- provide a description of what they'll do and why it;s important -->
+In this exercise you will provision your Microsoft Defender XDR environment, onboard client workstations in Defender for Endpoint and perform a simulated attack scenario on a client workstation.
 
 This exercise should take approximately **XX** minutes to complete. <!-- update with estimated duration -->
 
-## Before you start
-
-<!--
-Add steps to get the learner to the starting point" for the exercise.
-This might be cloning the repo and running a script or performing some manual steps.
-Only include this section if its necessary to do some pre-exercise setup AND the same setup steps are required for self-paced (on Learn) and managed (in hosted ILT lab profiles) scenarios. Otherwise delete this section.
-If self-paced /ILT-specific setup steps are required, include them in the Learn "Exercise" unit from where they open this exercise and in the Skillable lab profile instructions before this markdown file is imported.
- -->
-
-Before you can start this exercise, you will need to...
-
-1. In the Microsoft Edge browser, go to the Microsoft Defender XDR portal at (https://security.microsoft.com).
-1. Step 2
-1. etc.
+>**Important:**
+> You'll need to have access to a Microsoft 365 E5 Tenant with a Microsoft Defender for Endpoint P2 license to perform the following exercises. You will also need to have Microsoft Windows 10 or 11 client workstations to onboard and perform simulated attacks on.
 
 ## Task 1- Preparing the Microsoft Defender XDR workspace
 
-First, you need to ...
-
-Preparing the Microsoft Defender XDR workspace
-
+1. In the Microsoft Edge browser, go to the Microsoft Defender portal at (<https://security.microsoft.com>).
 1. On the **Microsoft Defender** portal, from the navigation menu, select **Home** from the left.
 
     >**Note:** You may need to scroll all the way to the menu top.
@@ -43,6 +29,7 @@ Preparing the Microsoft Defender XDR workspace
     >**Note:** Disregard pop-up error messages saying *Some of your data cannot be retrieved*. If the message "Hang on! We're preparing new spaces for your data and connecting them" does not appear, or the "Settings > Microsoft Defender XDR > Account" page opens, but you see the message *Failed to load data storage location. Please try again later*, select "Alert service settings" from the "General" menu.
 
 1. When the new workspace initialization completes successfully, the **Home** portal page will display a **Get your SIEM and XDR in one place** banner. And, in **Settings**, the Microsoft Defender XDR General settings for Account, Email notifications, **Preview Features**, Alert service settings, Permissions and roles and Streaming API are now turned on.
+
 ## Next task
 
 Now let's, ...
@@ -53,7 +40,7 @@ Now let's, ...
 
 ## Task with subtasks
 
-Sometimes you might want to break a taak down into smaller chunks.
+Sometimes you might want to break a task down into smaller chunks.
 
 ### Subtask 1
 
