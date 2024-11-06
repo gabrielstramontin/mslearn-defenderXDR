@@ -30,68 +30,6 @@ This exercise should take approximately **XX** minutes to complete. <!-- update 
 
 1. When the new workspace initialization completes successfully, the **Home** portal page will display a **Get your SIEM and XDR in one place** banner. And, in **Settings**, the Microsoft Defender XDR General settings for Account, Email notifications, **Preview Features**, Alert service settings, Permissions and roles and Streaming API are now turned on.
 
-## Next task
-
-Now let's, ...
-
-1. Step 1
-1. Step 2
-1. etc.
-
-## Task with subtasks
-
-Sometimes you might want to break a task down into smaller chunks.
-
-### Subtask 1
-
-1. Step 1
-1. Step 2
-1. Etc.
-
-### Subtask 2
-
-1. Step 1
-1. Step 2
-1. etc.
-
-## Clean up
-
-<!-- Good practice - especially as self-paced learners will be using their own subscriptions -->
-<!-- Delete this section if it is not needed -->
-
-Now that you've finished the exercise, you should delete the cloud resources you've created to avoid unnecessary resource usage.
-
-1. Step 1
-2. etc.
-
----
-lab:
-    title: 'Exercise 1 - Explore Microsoft Defender XDR'
-    module: 'Learning Path 1 - Mitigate threats using Microsoft Defender XDR'
----
-
-# Learning Path 1 - Lab 1 - Exercise 1 - Explore Microsoft Defender XDR
-
-## Lab scenario
-
-![M365 Defender](../Media/SC-200-Lab_M1_L1_Ex1.png)
-
-You're a Security Operations Analyst working at a company that is implementing Microsoft Defender XDR. You start by assigning preset security policies used in Exchange Online Protection (EOP) and Microsoft Defender for Office 365.
-
->**Note:** **WWL Tenants - Terms of Use**
-If you are being provided with a tenant as a part of an instructor-led training delivery, please note that the tenant is made available for the purpose of supporting the hands-on labs in the instructor-led training.
-Tenants should not be shared or used for purposes outside of hands-on labs. The tenant used in this course is a trial tenant and cannot be used or accessed after the class is over and are not eligible for extension.
-Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
-
-### Task 1: Obtain Your Microsoft 365 Credentials
-
-Once you launch the lab, a free trial tenant is made available to you to access in the Microsoft virtual Lab environment. This tenant is automatically assigned a unique username and password. You must retrieve this username and password so that you can sign into Azure and Microsoft 365 within the Microsoft Virtual Lab environment.
-
-Because this course can be offered by learning partners using any one of several Authorized Lab Hosting (ALH) providers, the actual steps involved to retrieve the tenant ID associated with your tenant may vary by lab hosting provider. Therefore, your instructor will provide you with the necessary instructions for how to retrieve this information for your course. The information that you should note for later use includes:
-
-- **Tenant suffix ID.** This ID is for the onmicrosoft.com accounts that you'll use to sign into Microsoft 365 throughout the labs. This is in the format of **{username}@ZZZZZZ.onmicrosoft.com**, where ZZZZZZ is your unique tenant suffix ID provided by your lab hosting provider. Record this ZZZZZZ value for later use. When any of the lab steps direct you to sign into Microsoft 365 portals, you must enter the ZZZZZZ value that you obtained here.
-- **Tenant password.** This is the password for the admin account provided by your lab hosting provider.
-
 ### Task 2: Apply Microsoft Defender for Office 365 preset security policies
 
 In this task, you'll assign preset security policies for Exchange Online Protection (EOP) and Microsoft Defender for Office 365 in the Microsoft 365 security portal.
@@ -151,19 +89,5 @@ In this task, you'll assign preset security policies for Exchange Online Protect
 1. Read the content under *Review and confirm your changes* and select **Confirm** to apply the changes and then select **Done** to finish.
 
     >**Note:** If you receive the message *"The URI '<https://outlook.office365.com/psws/service.svc/AntiPhishPolicy>' is not valid for PUT operation. The URI must point to a single resource for PUT operations."* just select **OK** and then select **Cancel** to return to the main page. You will see the *Strict protection is on* option enabled.
-
-### Task 3: Preparing the Microsoft Defender XDR workspace
-
-1. On the **Microsoft Defender** portal, from the navigation menu, select **Home** from the left.
-
-    >**Note:** You may need to scroll all the way to the menu top.
-
-1. Scroll down the menu items to **Assets** and select **Devices**.
-
-1. The process to deploy the Defender XDR workspace should start and you should see messages saying *loading and Initializing* briefly displayed at the top of the page, and then you're going to see an image of a coffee mug and a message that reads: **Hang on! We're preparing new spaces for your data and connecting them.** It takes approximately 5 minutes to finish. *Leave the page open and make sure it finishes since it's required for the next Lab.*
-
-    >**Note:** Disregard pop-up error messages saying *Some of your data cannot be retrieved*. If the message "Hang on! We're preparing new spaces for your data and connecting them" does not appear, or the "Settings > Microsoft Defender XDR > Account" page opens, but you see the message *Failed to load data storage location. Please try again later*, select "Alert service settings" from the "General" menu.
-
-1. When the new workspace initialization completes successfully, the **Home** portal page will display a **Get your SIEM and XDR in one place** banner. And, in **Settings**, the Microsoft Defender XDR General settings for Account, Email notifications, **Preview Features**, Alert service settings, Permissions and roles and Streaming API are now turned on.
 
 ## You have completed the lab

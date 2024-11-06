@@ -1,14 +1,12 @@
 ---
 lab:
-    title: 'Exercise 1 - Deploy Microsoft Defender for Endpoint'
-    module: 'Learning Path 4 - Mitigate threats using Microsoft Defender for Endpoint'
+    title: 'Deploy Microsoft Defender for Endpoint'
+    module: Mitigate threats using Microsoft Defender for Endpoint'
 ---
 
-# Learning Path 4 - Lab 1 - Exercise 1 - Deploy Microsoft Defender for Endpoint
+# Deploy Microsoft Defender for Endpoint
 
 ## Lab scenario
-
-![Lab overview.](../Media/SC-200-Lab_Diagrams_Mod2_L1_Ex1.png)
 
 You're a Security Operations Analyst working at a company that is implementing Microsoft Defender for Endpoint. Your manager plans to onboard a few devices to provide insight into required changes to the Security Operations (SecOps) team response procedures.
 
@@ -16,9 +14,7 @@ You start by initializing the Defender for Endpoint environment. Next, you onboa
 
 >**Important:**  The lab Virtual Machines are used through different modules. SAVE your virtual machines. If you exit the lab without saving, you will be required to re-run some configurations again.
 
->**Note:** Make sure you have completed successfully Task 3 of the previous module.
-
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Deploy%20Microsoft%20Defender%20for%20Endpoint)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same. 
+>**Note:** Make sure you have completed successfully Task 1 of the previous module.
 
 
 ### Task 1: Initialize Microsoft Defender for Endpoint
