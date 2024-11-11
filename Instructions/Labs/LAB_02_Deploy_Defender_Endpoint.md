@@ -16,6 +16,7 @@ You start by initializing the Defender for Endpoint environment. Next, you onboa
 
 >**Note:** Make sure you have completed successfully Task 1 of the previous module.
 
+This exercise should take approximately **15** minutes to complete.
 
 ### Task 1: Initialize Microsoft Defender for Endpoint
 
@@ -61,7 +62,6 @@ In this task, you'll onboard a device to Microsoft Defender for Endpoint using a
     >**Tip:**
     > If your browser blocks the download, take action in the browser to allow it. In the Microsoft Edge Browser, you may see the message, "*WindowsDefenderATPOnboardingPackage.zip isn't commonly downloaded. Make sure you trust...*, select the ellipsis button (...) if needed and then select **Keep**. In Microsoft Edge a second pop-up appears with the message,"*Make sure you trust WindowsDefenderATPOnboardingPackage.zip before you open it*", select **Show more** to expand the selections and select **Keep anyway**.
 
-
 1. Right-click the downloaded zip file and select **Extract All...**, make sure that *Show extracted files when complete* is checked and select **Extract**.
 
 1. Right-click on the extracted file "WindowsDefenderATPLocalOnboardingScript.cmd" and select **Properties**. Select the **Unblock** checkbox in the bottom right of the Properties windows and select **OK**.
@@ -71,7 +71,6 @@ In this task, you'll onboard a device to Microsoft Defender for Endpoint using a
 1. When the "User Account Control" window is shown, select **Yes** to allow the script to run and answer **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
 
 1. Press any key to continue. This closes the Command Prompt window.
-
 
 ### Task 3: Configure Roles
 

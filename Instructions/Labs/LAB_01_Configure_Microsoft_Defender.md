@@ -10,7 +10,7 @@ guide the company’s IT team in defending against threats with Microsoft Defend
 
 In this exercise you will provision your Microsoft Defender XDR environment, onboard client workstations in Defender for Endpoint and perform a simulated attack scenario on a client workstation.
 
-This exercise should take approximately **XX** minutes to complete. <!-- update with estimated duration -->
+This exercise should take approximately **10 - 15** minutes to complete.
 
 >**Important:**
 > You'll need to have access to a Microsoft 365 E5 Tenant with a Microsoft Defender for Endpoint P2 license to perform the following exercises. You will also need to have Microsoft Windows 10 or 11 client workstations to onboard and perform simulated attacks on.

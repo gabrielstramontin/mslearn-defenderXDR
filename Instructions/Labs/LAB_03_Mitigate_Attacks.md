@@ -12,6 +12,8 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 To explore the Defender for Endpoint attack mitigation capabilities, you will verify successful device onboarding and investigate alerts and incidents created during that process.
 
+This exercise should take approximately **30** minutes to complete.
+
 ### Task 1: Verify Device onboarding
 
 In this task, you will confirm that the device is onboarded successfully and create a test alert.
