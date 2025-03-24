@@ -114,7 +114,7 @@ In this task, you'll configure device groups that allow for access control and a
     |General setting|Value|
     |---|---|
     |Device group name|**Regular**|
-    |Remediation level|Full - remediate threats automatically|
+    |Remediation level|Full - remediation|
 
 1. Select **Next**.
 

@@ -84,7 +84,7 @@ In this task, you will simulate an attack on the WIN1 virtual machine (by runnin
 
 1. To run the script, in **Windows PowerShell (Admin)** navigate to the *\Users\Admin\Desktop\Allfiles* folder and type *.\AttackScript.ps1* and press **Enter** to run it. Next, type **R** and press **Enter** to *Run Once*.
 
-1. The script will produce several lines of output and a message that it *Failed to resolve Domain Controllers in the domain*. A few seconds later, the *Notepad* app will open. A simulated attack code will be injected into Notepad. Keep the automatically generated Notepad instance open to experience the full scenario. The simulated attack code will attempt to communicate to an external IP address (simulating a C2 server).
+1. The script will produce several lines of output and a message that it *Failed to resolve Domain Controllers in the domain*. A few seconds later, the *Notepad* app will open. A simulated attack code will be injected into Notepad (the Notepad page will be blank). Keep the automatically generated Notepad instance open to experience the full scenario. The simulated attack code will attempt to communicate to an external IP address (simulating a C2 server).
 
 ### Task 4: Investigate the simulated attack as a single incident
 
